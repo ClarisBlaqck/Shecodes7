@@ -1,0 +1,16 @@
+.weatherapp {
+max-width: 600px;
+margin: 40px auto;
+padding: 20px;
+border: 1px;
+border-radius: 5px;
+}
+li {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    color: blue;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 20px;
+}
