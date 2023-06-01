@@ -6,7 +6,7 @@ body{
     margin: 40px auto;
     padding: 20px;
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: 5px #dadde1;
 }
 h1{
     color: blueviolet;
