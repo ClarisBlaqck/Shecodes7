@@ -15,63 +15,62 @@
   </head>
   <body>
     <div class="container">
-      <div class="weatherapp">
-        <div class="weather-app-wrapper">
-          <form class="search-form" id="search-form">
-            <div class="row">
-              <div class="col-6">
-                <input
-                  type="search"
-                  placeholder="Enter a city"
-                  autofocus="on"
-                  autocomplete="off"
-                  id="city-input"
-                  class="form-control shadow-sm"
-                />
-              </div>
-              <div class="col-3">
-                <input
-                  type="submit"
-                  value="search"
-                  class="form-control btn btn-primary shadow-sm"
-                />
-              </div>
-              <div class="col-3">
-                <button
-                  class="btn btn-success w-100"
-                  id="current-location-button"
-                >
-                  Current
-                </button>
-              </div>
-            </div>
-          </form>
-          <h1>Yaounde</h1>
-          <ul>
-            <li>Wednesday 1:50</li>
-            <li>Clear</li>
-          </ul>
-          <div class="row">
-            <div class="col-6">
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                alt="Clear"
-              />
-              27 °C| °F
-            </div>
-            <ul>
-              <li>Precipitation: 73%</li>
-              <li>Humidity: 80%</li>
-              <li>Wind Speed: 3km/h</li>
-            </ul>
+    <div class="weatherapp">
+     <form class="search-form" id="search-form">
+        <div class="row">
+          <div class="col-6">
+            <input
+              type="search"
+              placeholder="Enter a city"
+              autofocus="on"
+              autocomplete="off"
+              id="city-input"
+              class="form-control shadow-sm"
+            />
+          </div>
+          <div class="col-3">
+            <input
+              type="submit"
+              value="search"
+              class="form-control btn btn-primary shadow-sm"
+            />
+          </div>
+          <div class="col-3">
+            <button
+              class="btn btn-success w-100"
+              id="current-location-button"
+            >
+              Current
+            </button>
           </div>
         </div>
+      </form>
+          <div class="row align-items-center">
+         <h1 class="city" id="city">Yaounde</h1>
+      </div>
+      <div class="date" id="date"> Sunday, April 2, 18:30</div>
+      <div>
+      <div class="col">
+      </div>
+      <strong id="description">Partly cloudy</strong>
+      </div>
+         <span class="today-temperature" id="temperature">  30</span>
+          <span class="units">
+              <a href="#" id="celsius-link">°C</a> |
+              <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+          <div>Humidity: <strong id="humidity">78</strong>%</div>
+          <div> Precipitation: <strong id="precipitation">73</strong>%</div>
+          <div>Wind Speed: <Strong id="windspeed">3</Strong>km/h</div>
         </div>
-         <small>
-          <a id="github" href="https://github.com/ClarisBlaqck">Open Source code</a> by
+        <div>
+        <small>
+          <a href="https://github.com/ClarisBlaqck">Open Source code</a> by
           Claris
         </small>
     </div>
-    <script src="src/index.js"></script>
+       </div>
+    </div>
+     <script src="src/index.js"></script>
   </body>
 </html>
