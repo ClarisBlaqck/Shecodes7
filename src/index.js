@@ -33,6 +33,7 @@ function showWeatherTemp(response) {
   document.querySelector(`#humidity`).innerHTML = response.data.main.humidity;
   document.querySelector(`#description`).innerHTML =
     response.data.weather[0].description;
+    let iconElement = document.querySelector("#icon");
 }
 function searchCity(city) {
   let apiKey = "e69d8404a2535885a8e02325aef69c55";
