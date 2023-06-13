@@ -33,7 +33,10 @@ function showWeatherTemp(response) {
   document.querySelector(`#humidity`).innerHTML = response.data.main.humidity;
   document.querySelector(`#description`).innerHTML =
     response.data.weather[0].description;
-    let iconElement = document.querySelector("#icon");
+}
+function iconDisplay{
+  let iconElement = document.querySelector("#icon");
+    iconElement.setAttribute ("src", 'http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png');
 }
 function searchCity(city) {
   let apiKey = "e69d8404a2535885a8e02325aef69c55";
