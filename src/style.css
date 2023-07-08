@@ -3,13 +3,14 @@ body{
 }
 .weatherapp {
     max-width: 600px;
-    margin: 5px auto;
+    margin: auto;
     padding: 20px;
     border: 1px solid;
     border-radius: 5px #dadde1;
+    background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
     }
 h1{
-    color: blueviolet;
+    color: rgb(88, 76, 99);
     font-size: 24;
     font-weight: 100;
     line-height: 23px;
